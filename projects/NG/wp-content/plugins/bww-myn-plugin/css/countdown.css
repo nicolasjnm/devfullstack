@@ -1,0 +1,112 @@
+.countdown-header{
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 27px;
+	line-height: 27px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	border-bottom: 2px solid #c6a3d7;
+	margin-bottom:15px;
+}
+
+.countdown-header-2 .countdown-header-2-headline {
+	text-transform: uppercase;
+	font-size: 35px;
+	line-height: 1.2;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+.countdown-header .countdown-container {
+	display: inline-block;
+	height: 55px;
+	width: 260px;
+	max-width: 100%;
+	margin-bottom: -10px;
+	padding-left: 10px;
+}
+.countdown-header .countdown-header-col {
+	width: 25%;
+	float: left;
+	padding-right: 8px;
+}
+.countdown-header .countdown-header-countdown-box {
+	border-radius: 8px;
+	background-color: #FFF;
+	width: 100%;
+	color: #B00002;
+	text-align: center;
+	font-size: 25px;
+	line-height: 27px;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	-webkit-box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+	box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+}
+.countdown-header .countdown-header-time-unit {
+	font-size: 12px;
+	line-height: 20px;
+}
+.countdown-header-2 .countdown-header-logo {
+	width: 111px;
+	height: 70px;
+	margin: 0px;
+	margin-right: 15px;
+	float: left;
+}
+.countdown-header .countdown-header-menu a{
+	font-size: 18px;
+	line-height: 55px;
+	color: #FFF;
+	margin-left: 20px;
+}
+.countdown-header a.countdown-header-order-button {
+	font-size: 18px;
+	margin-left: 20px;
+	padding: 10px 20px;
+	border-radius: 20px;
+	background-color: #F7941D;
+	color: #FFF !important;
+	white-space: nowrap;
+}
+.countdown-header a.countdown-header-order-button:hover {
+	text-decoration: none;
+	background-color: #FCBF31;
+}
+.countdown-header .countdown-header-mobile-countdown {
+	line-height: 1.2;
+	font-size: 18px;
+	text-transform: none;
+	margin-top: 5px;
+	display: block;
+}
+.timer-header-body {
+	padding-top: 97px;
+}
+.countdown-header-2 {
+	padding: 15px 0px;
+}
+.countdown-header-countdown-box span {
+    margin: 0;
+}
+@media (max-width: 767px) {
+.countdown-header .timer-header-body {
+	padding-top: 80px;
+}
+.countdown-header .countdown-header {
+	padding: 10px 0px;
+}
+}
+
+@media (min-width: 992px) {
+.countdown-header-2 .countdown-header-2-headline {
+	text-transform: uppercase;
+	font-size: 35px;
+	line-height: 70px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	text-align: right;
+}
+}

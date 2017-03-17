@@ -1,0 +1,59 @@
+ul.bxslider{
+	display:none;}
+.bx-wrapper ul.bxslider{
+	display:block;}
+.journal-item{
+	position:relative;}
+.journal-item{
+	padding-right:76px;
+}
+.journal-item-overflow span{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+	display:block;
+	min-height:40px;
+}
+a.remove-item {
+    border-radius: 25px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    color: #FFF;
+    text-decoration: none;
+    top: 0px;
+    right: -5%;
+    display: block;
+    width: 79px;
+    font-size: 14px;
+    height: 21px;
+    line-height: 21px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+}
+a.print-item {
+    border-radius: 25px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.2);
+    color: #FFF;
+    text-decoration: none;
+    top: 33px;
+    right: -5%;
+    display: block;
+    width: 79px;
+    font-size: 14px;
+    height: 21px;
+    line-height: 21px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+}
+a.remove-item:hover{
+    background:rgba(255, 255, 255, 0.2);	
+}
+@media (max-width: 640px) {
+a.print-item {
+    display: none;
+}
+}
+

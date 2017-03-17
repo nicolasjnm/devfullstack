@@ -1,0 +1,60 @@
+ul.bxslider{
+	display:none;}
+.bx-wrapper ul.bxslider{
+	display:block;}
+.journal-item{
+	position:relative;}
+.journal-item{
+	padding-right:25px;
+}
+.journal-item-overflow span{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+	display:block;
+	min-height:22px;
+}
+a.remove-item{
+	border-radius:50%;
+	overflow:hidden;
+	background:rgba(255, 255, 255, 0.4);
+	color:#FFF;
+	text-decoration:none;
+	top:0px;
+	right:-5%;
+	display:block;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	cursor:pointer;
+	text-align:center;
+	position:absolute;
+	}
+a.remove-item:hover{
+    background:rgba(255, 255, 255, 0.2);	
+}
+.button-medium-wn{
+	float:right;
+	height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2) !important;
+    color: #fff;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    vertical-align: middle;
+    margin: 4px;
+    display: inline-block;
+    -webkit-appearance: none !important;
+	text-decoration: none;
+    cursor: pointer;
+}
+.button-medium-wn:hover{
+	color:#000;}
+.button-medium-wn:before{
+	clear:both;
+	content:"";
+	display:block;
+}
